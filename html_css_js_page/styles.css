@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: rgb(243, 238, 238);
+}
+
+footer h2 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 11px;
+    color: rgba(156, 158, 162, 1);
+}
+
+.footer_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer_list > div {
+    color: rgb(71, 138, 221);
+    font-size: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
