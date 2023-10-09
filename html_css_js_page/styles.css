@@ -4,6 +4,14 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    background-color: rgb(177, 205, 238);
+}
+
+main {
+    padding-top: 50px;
+}
+
 main h3{
     text-align: center;
     font-weight: lighter;
@@ -21,13 +29,22 @@ main h3 a {
 .main-list {
     display: flex;
     flex-flow: row wrap;
-    align-items: stretch;
-    padding-bottom: 40px;
+    justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .main-list > div {
     margin: 10px;
     font-weight: bold;
+}
+
+.main-list > div > img {
+    height: 17px;
+}
+
+.main-list > div > .special {
+    height: 70px;
+    margin-top: -20px;
 }
 
 footer {
