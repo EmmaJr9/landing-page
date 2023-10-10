@@ -8,8 +8,71 @@ header {
     background-color: rgb(177, 205, 238);
 }
 
+header > .navbar {
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.navbar > .left > .left-item {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar > .left  a {
+    text-decoration: none;
+    color: rgb(94, 94, 243);
+}
+
+.navbar > .center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.navbar > .center > .center-item {
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar > .center a {
+    text-decoration: none;
+    color: black;
+}
+
+.right > .right-button {
+    border: none;
+    background-color: rgb(177, 205, 238);
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.right > .right-button a {
+    color: rgb(94, 94, 243);
+    text-decoration: none;
+}
+
+.right > .right-button a:hover {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px 17px;
+    text-align: center;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
 main {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 main h3{
@@ -30,7 +93,7 @@ main h3 a {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .main-list > div {
@@ -45,6 +108,14 @@ main h3 a {
 .main-list > div > .special {
     height: 70px;
     margin-top: -20px;
+}
+
+.main-list > .red {
+    color: rgb(240, 27, 27);
+}
+
+.main-list > .green {
+    color: rgb(138, 250, 138);
 }
 
 footer {
