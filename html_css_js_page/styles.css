@@ -16,6 +16,7 @@ header > .navbar {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .navbar > .left > .left-item {
@@ -69,6 +70,30 @@ header > .navbar {
     text-align: center;
     margin: 10px 5px;
     cursor: pointer;
+}
+
+.design {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.text-design {
+    margin-left: 100px;
+}
+
+.text-design > h2 {
+    font-size: 50px;
+}
+
+.text-design > h2, .small-text {
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.img-design > img {
+    height: 200px;
+    margin-right: 100px;
 }
 
 main {
