@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -8px;
 }
 
 header {
@@ -76,6 +77,7 @@ header > .navbar {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .text-design {
@@ -84,6 +86,13 @@ header > .navbar {
 
 .text-design > h2 {
     font-size: 50px;
+}
+
+.text-design > .small-text {
+    color: rgba(156, 158, 162, 1);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -20px;
 }
 
 .text-design > h2, .small-text {
