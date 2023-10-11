@@ -6,6 +6,7 @@ html {
 }
 
 header {
+    padding-bottom: 220px;
     background-color: rgb(177, 205, 238);
 }
 
@@ -120,17 +121,12 @@ header > .navbar {
     text-align: center;
     margin-left: -115px;
     cursor: pointer;
-  }
+}
 
 .img-design > img {
     height: 200px;
-    margin-right: 100px;
-}
-
-.items {
-    display: row;
-    flex-flow: row wrap;
-    padding: 10px;
+    margin-right: 200px;
+    margin-top: 100px;
 }
 
 .fa-discord {
@@ -140,8 +136,40 @@ header > .navbar {
     border-radius: 8px;
 }
 
-.discord > .fa-discord {
-    margin-right: 50px;
+.discord {
+    width: 200px;
+    height: 80px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 245px;
+    margin-top: -10px;
+}
+
+.discord > .text-1 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -45px;
+    margin-left: 70px;
+}
+
+.discord > .text-2 {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 70px;
+    color: grey;
+}
+
+.interview-button {
+    border: 1px solid #d8f3db;
+    border-radius: 5px;
+    background-color: #d8f3db;
+    color: #68e425;
+    font-weight: bold;
+    padding: 5px 9px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .fa-dropbox {
@@ -151,11 +179,46 @@ header > .navbar {
     border-radius: 8px;
 }
 
+.dropbox {
+    width: 49px;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: -300px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
 .fa-briefcase {
     padding: 8px;
     color: #ffffff;
     background-color: #3a8ffd;
     border-radius: 8px;
+}
+
+.briefcase {
+    width: 150px;
+    padding: 7px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: -45px;
+    margin-bottom: 17px;
+}
+
+.briefcase > .text-1 {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: -45px;
+    margin-left: 70px;
+    color: grey;
+}
+
+.briefcase > .text-2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 70px;
 }
 
 .fa-airbnb {
@@ -165,6 +228,15 @@ header > .navbar {
     border-radius: 8px;
 }
 
+.airbnb {
+    width: 45px;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 120px;
+}
+
 .fa-basketball {
     padding: 8px;
     color: #ffffff;
@@ -172,11 +244,49 @@ header > .navbar {
     border-radius: 8px;
 }
 
+.basketball {
+    width: 49px;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 265px;
+    margin-top: -150px;
+}
+
 .fa-credit-card {
     padding: 8px;
     color: #ffffff;
     background-color: #3accfd;
     border-radius: 8px;
+}
+
+.credit-card {
+    width: 52px;
+    height: 52px;
+    padding: 4px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 230px;
+    margin-top: -180px;
+}
+
+.fa-circle-check {
+    margin-left: 50px;
+    color: #34ec27;
+}
+
+.credit-card > .text {
+    font-weight: bold;
+    padding: 5px;
+    padding-right: 55px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: -25px;
+    font-size: 12px;
 }
 
 main {
