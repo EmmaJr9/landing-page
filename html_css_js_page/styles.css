@@ -100,6 +100,28 @@ header > .navbar {
     word-wrap: break-word;
 }
 
+.text-design > input[type=text] {
+    padding: 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 350px;
+  }
+
+  .text-design > .text-design-button {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 9px 12px;
+    text-align: center;
+    margin-left: -115px;
+    cursor: pointer;
+  }
+
 .img-design > img {
     height: 200px;
     margin-right: 100px;
@@ -121,6 +143,7 @@ main h3 a {
 
 .m-text {
     margin-top: -10px;
+    margin-bottom: 40px;
 }
 
 .main-list {
@@ -130,25 +153,27 @@ main h3 a {
     padding-bottom: 40px;
 }
 
-.main-list > div {
+.main-list > div > a {
     margin: 10px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
-.main-list > div > img {
+.main-list > div > a > img {
     height: 17px;
 }
 
-.main-list > div > .special {
+.main-list > div > a > .special {
     height: 70px;
     margin-top: -20px;
 }
 
-.main-list > .red {
+.main-list > .red > a {
     color: rgb(240, 27, 27);
 }
 
-.main-list > .green {
+.main-list > .green > a {
     color: rgb(138, 250, 138);
 }
 
