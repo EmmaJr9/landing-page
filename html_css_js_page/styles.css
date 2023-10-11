@@ -127,6 +127,58 @@ header > .navbar {
     margin-right: 100px;
 }
 
+.items {
+    display: row;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.fa-discord {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #423abb;
+    border-radius: 8px;
+}
+
+.discord > .fa-discord {
+    margin-right: 50px;
+}
+
+.fa-dropbox {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #2038ee;
+    border-radius: 8px;
+}
+
+.fa-briefcase {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #3a8ffd;
+    border-radius: 8px;
+}
+
+.fa-airbnb {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #ee202a;
+    border-radius: 8px;
+}
+
+.fa-basketball {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #fa3afd;
+    border-radius: 8px;
+}
+
+.fa-credit-card {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #3accfd;
+    border-radius: 8px;
+}
+
 main {
     padding-top: 40px;
 }
