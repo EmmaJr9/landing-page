@@ -1,3 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
 header {
   padding-bottom: 220px;
   background-color: rgb(177, 205, 238);
@@ -45,7 +60,6 @@ header > .navbar {
   border: none;
   background-color: rgb(177, 205, 238);
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
