@@ -13,12 +13,12 @@ code {
 }
 
 
-header {
+.header {
   padding-bottom: 220px;
   background-color: rgb(177, 205, 238);
 }
 
-header > .navbar {
+.header > .navbar {
   padding-top: 20px;
 }
 
@@ -296,16 +296,16 @@ header > .navbar {
   font-size: 12px;
 }
 
-main {
+.main {
   padding-top: 40px;
 }
 
-main h3{
+.main h3{
   text-align: center;
   font-weight: lighter;
 }
 
-main h3 a {
+.main h3 a {
   text-decoration: none;
   font-weight: bold;
 }
@@ -346,17 +346,17 @@ main h3 a {
   color: rgb(138, 250, 138);
 }
 
-footer {
+.footer {
   background-color: rgb(243, 238, 238);
 }
 
-footer h2 {
+.footer h2 {
   padding-top: 30px;
   text-align: center;
   font-weight: lighter;
 }
 
-footer p {
+.footer p {
   text-align: center;
   font-size: 11px;
   color: rgba(156, 158, 162, 1);
